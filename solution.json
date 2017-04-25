@@ -1,0 +1,40 @@
+{
+    "Projects": [
+        {
+            "Name": "jscomet.game",
+            "Source": "jscomet.game/src",
+            "Bin": "jscomet.game/bin",
+            "IgnorePathsOnTranslate": [
+                "libs",
+                "node_modules"
+            ],
+            "Type": "library",
+            "MainFile": "jscomet.game.js"
+        },
+        {
+            "Name": "jscomet.game.tests",
+            "Source": "jscomet.game.tests/src",
+            "Bin": "jscomet.game.tests/bin",
+            "IgnorePathsOnTranslate": [
+                "libs",
+                "node_modules",
+                "assets/js"
+            ],
+            "Type": "web",
+            "MainFile": "main.js"
+        }
+    ],
+    "Options": {
+        "translateModule": true,
+        "translateExports": true,
+        "translateImports": true,
+        "translateClass": true,
+        "translateStringTemplates": true,
+        "translateArrowFunctions": true,
+        "translateLetAndConst": true,
+        "translateFunctions": true,
+        "translateTypedArrays": true,
+        "translateAsyncFunctions": true,
+        "translateCodeAfterImport": false
+    }
+}
