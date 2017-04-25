@@ -1,1 +1,1 @@
-jscomet.game
+Simple Game engine created using JSComet
